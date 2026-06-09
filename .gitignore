@@ -1,0 +1,174 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+.fvm/
+.fvm/flutter_sdk
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/gradlew.bat
+android/gradlew
+android/captures/
+android/app/debug/
+android/app/release/
+*.jks
+*.keystore
+
+# iOS
+ios/.symlinks/
+ios/.generated/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.modulemap
+ios/Flutter/GeneratedPluginRegistrant.*
+ios/Runner.xcodeproj/project.pbxproj
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcworkspace/Pods/
+ios/Pods/
+ios/Podfile.lock
+ios/.dart_tool/
+ios/Flutter/ephemeral/
+
+# macOS
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Runner.xcodeproj/project.pbxproj
+macos/Runner.xcworkspace/xcuserdata/
+macos/Pods/
+macos/Podfile.lock
+
+# Windows
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+
+# Linux
+linux/flutter/generated_plugins.cmake
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+
+# Web
+web/flutter_service_worker.js
+web/js/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Blockchain / Hardhat
+Blockchain/node_modules/
+Blockchain/dist/
+Blockchain/.hardhat/
+Blockchain/artifacts/
+Blockchain/cache/
+Blockchain/coverage/
+Blockchain/.openzeppelin/
+Blockchain/.env.local
+Blockchain/.env.*.local
+Blockchain/coverage.json
+Blockchain/typechain/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.history/
+.vs/
+.vscode-test
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Android Studio
+*.apk
+*.ap_
+*.aab
+
+# iOS build products
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Compilation artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Coverage
+coverage/
+.nyc_output/
+lcov.info
+
+# Generated files
+*.generated.dart
+*.config.dart
+*.g.dart
+*.g.json
+
+# Local environment
+local.properties
+gradle.properties.local
+
+# Misc
+.ruby-version
+.python-version
